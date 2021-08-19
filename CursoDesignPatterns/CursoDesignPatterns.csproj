@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D315CC02-1181-418F-AF7B-D31AE308758F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CursoDesignPatterns</RootNamespace>
+    <AssemblyName>CursoDesignPatterns</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcaoAposGerarNota.cs" />
+    <Compile Include="Aprovado.cs" />
+    <Compile Include="CalculadorDeDescontos.cs" />
+    <Compile Include="CalculadorDeImpostos.cs" />
+    <Compile Include="Conta.cs" />
+    <Compile Include="ContNegativa.cs" />
+    <Compile Include="ContaPositiva.cs" />
+    <Compile Include="EnviadorDeEmail.cs" />
+    <Compile Include="EnviadorDeSms.cs" />
+    <Compile Include="ImpressaoMultiplicado.cs" />
+    <Compile Include="ImpressoraNf.cs" />
+    <Compile Include="ItemDaNotaBuilder.cs" />
+    <Compile Include="NotaFiscalBuilder.cs" />
+    <Compile Include="Desconto.cs" />
+    <Compile Include="DescontoPorCincoItens.cs" />
+    <Compile Include="DescontoPorMaisDeQuinhentosReais.cs" />
+    <Compile Include="DescontoPorVendaCasada.cs" />
+    <Compile Include="EmAprovacao.cs" />
+    <Compile Include="EstadoDeUmaConta.cs" />
+    <Compile Include="Filtro.cs" />
+    <Compile Include="FiltroMaiorQue500MilReais.cs" />
+    <Compile Include="FiltroMenorQue100Reais.cs" />
+    <Compile Include="FiltroMesmoMes.cs" />
+    <Compile Include="Finalizado.cs" />
+    <Compile Include="ICCC.cs" />
+    <Compile Include="ICMS.cs" />
+    <Compile Include="ICPP.cs" />
+    <Compile Include="IHIT.cs" />
+    <Compile Include="IKCV.cs" />
+    <Compile Include="Imposto.cs" />
+    <Compile Include="ImpostoMuitoAlto.cs" />
+    <Compile Include="EstadoDeUmOrcamento.cs" />
+    <Compile Include="ItemDaNota.cs" />
+    <Compile Include="NotaFiscal.cs" />
+    <Compile Include="NotaFiscalDao.cs" />
+    <Compile Include="Relatorio.cs" />
+    <Compile Include="RelatorioComplexo.cs" />
+    <Compile Include="RelatorioSimples.cs" />
+    <Compile Include="Reprovado.cs" />
+    <Compile Include="Resposta.cs" />
+    <Compile Include="Investimento.cs" />
+    <Compile Include="ISS.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="Orcamento.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealizadorDeInvestimentos.cs" />
+    <Compile Include="Requisicao.cs" />
+    <Compile Include="RespostaEmCsv.cs" />
+    <Compile Include="RespostaEmPorcento.cs" />
+    <Compile Include="RespostaEmXml.cs" />
+    <Compile Include="SemDesconto.cs" />
+    <Compile Include="TemplateDeImpostoCondicional.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

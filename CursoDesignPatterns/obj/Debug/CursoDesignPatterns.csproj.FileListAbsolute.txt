@@ -1,0 +1,7 @@
+C:\Users\AS-Informatica\Documents\cursos\backend\designPatterns\CursoDesignPatterns\CursoDesignPatterns\bin\Debug\CursoDesignPatterns.exe.config
+C:\Users\AS-Informatica\Documents\cursos\backend\designPatterns\CursoDesignPatterns\CursoDesignPatterns\bin\Debug\CursoDesignPatterns.exe
+C:\Users\AS-Informatica\Documents\cursos\backend\designPatterns\CursoDesignPatterns\CursoDesignPatterns\bin\Debug\CursoDesignPatterns.pdb
+C:\Users\AS-Informatica\Documents\cursos\backend\designPatterns\CursoDesignPatterns\CursoDesignPatterns\obj\Debug\CursoDesignPatterns.csprojAssemblyReference.cache
+C:\Users\AS-Informatica\Documents\cursos\backend\designPatterns\CursoDesignPatterns\CursoDesignPatterns\obj\Debug\CursoDesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\AS-Informatica\Documents\cursos\backend\designPatterns\CursoDesignPatterns\CursoDesignPatterns\obj\Debug\CursoDesignPatterns.exe
+C:\Users\AS-Informatica\Documents\cursos\backend\designPatterns\CursoDesignPatterns\CursoDesignPatterns\obj\Debug\CursoDesignPatterns.pdb
